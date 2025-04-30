@@ -4,16 +4,15 @@ body {
 }
 
 header {
-  position: relative;
   width: 100%;
-  height: 100vh; /* altura total da tela */
-  overflow: hidden;
+  height: 300px; /* Altura fixa */
+  overflow: hidden; /* Corta o excesso da imagem se passar da altura */
 }
 
 header img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Preenche o container sem distorcer */
   display: block;
 }
 
