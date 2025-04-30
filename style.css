@@ -1,34 +1,22 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 40px;
 }
 
 header {
   width: 100%;
-  height: 300px; /* Altura fixa */
-  overflow: hidden; /* Corta o excesso da imagem se passar da altura */
+  height: 300px;
+  overflow: hidden;
 }
 
 header img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Preenche o container sem distorcer */
+  object-fit: cover;
   display: block;
 }
 
-header h1 {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 3rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-  margin: 0;
-}
-
 .conteudo {
-  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -46,14 +34,15 @@ header h1 {
 }
 
 .imagem {
-  width: 30%;
-  max-width: 200px;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
   margin-left: 20px;
 }
 
 .imagem img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
