@@ -44,8 +44,8 @@ header img {
 }
 
 .imagens-laterais img {
-  width: 100%;
-  max-height: 150px; 
+  width: 25%;
+  max-height: 25px; 
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
