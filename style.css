@@ -8,12 +8,9 @@ header {
 }
 
 .cabecalho-img {
-  width: 80%;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto 20px auto;
-  border-radius: 12px;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+ width: 100%;  /* ocupa toda a largura do contêiner */
+  height: 100%; /* ocupa toda a altura do contêiner */
+  object-fit: cover;  /* A imagem cobre o contêiner sem distorção */);
 }
 
 .conteudo {
