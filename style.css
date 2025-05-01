@@ -1,6 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 40px;
 }
 
 header {
@@ -23,6 +22,7 @@ header img {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  padding: 40px;
 }
 
 .textos {
